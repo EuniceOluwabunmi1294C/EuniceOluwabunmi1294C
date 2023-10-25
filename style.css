@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 *{
     margin: 0;
@@ -54,14 +54,14 @@
 .card .bg-img{
     height: 142px;
     background: url("images/bg-pattern-card.svg");
-    border-radius: 20px 20px 0 0;
-    z-index: 99;
+    border-radius: 20px 20px 0  0; 
 }
 .profile .picture{
     left: 50%;
     position: absolute;
     transform: translate(-50%);
     border-radius: 50%;
+    padding: 5px;
     background: #ffffff;
     top: 94px;
 }
@@ -84,10 +84,11 @@
 .profile .name{
     font-size: 18px;
     margin-bottom: 10px;
-    color: var(--very-dark-blue);
+    color: var(--dark-grayish);
 } 
 .profile .name span{
     font-weight: 700;
+    color: var(--very-dark-blue);
 }
 .profile .location{
     color: var(--dark-grayish);
@@ -98,14 +99,15 @@
     justify-content: space-evenly;
     width: 100%;
     padding-top: 23px;
+    text-align: center;
 }
 .stats .number{
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 7px;
-    color: var(--very-dark-blue);
+    color:  var(--very-dark-blue);
 }
-.stzts p{
+.stats p{
     color: var(--dark-grayish);
 }
 /*Making the profile card responsive */
